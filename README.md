@@ -11,6 +11,7 @@ A console-based Hotel Booking System developed using **Object-Oriented Programmi
 - Customer room booking with stay duration input
 - Auto-generated bill with GST calculation
 - Booking cancellation support (polymorphism used)
+- File handling for saving booking logs
 - Clean menu-driven UI for both Admin and Customer
 
 ---
@@ -23,6 +24,7 @@ A console-based Hotel Booking System developed using **Object-Oriented Programmi
 | **Inheritance**   | `Customer` and `Admin` inherited from `Person`      |
 | **Polymorphism**  | Virtual `cancelBooking()` method in `Booking`       |
 | **Abstraction**   | Modular classes for Booking, Room, Customer, Admin  |
+| **File Handling** | Logs stored in `booking_log.txt` using file streams |
 | **STL**           | `vector` for rooms and booking storage              |
 
 ---
